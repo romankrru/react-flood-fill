@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+}
+
+.PaletteColor {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.availableColors {
+  display: flex;
+  margin-top: 20px;
+}
