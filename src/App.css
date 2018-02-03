@@ -6,6 +6,23 @@ body {
   padding: 40px;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 480px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    display: block;
+  }
+}
+
+.board {
+  margin-bottom: 20px;
+}
+
 .cell {
   width: 20px;
   height: 20px;

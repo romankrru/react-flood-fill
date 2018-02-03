@@ -8,7 +8,7 @@ class App extends Component {
   constructor() {
     super();
 
-    const size = 7;
+    const size = 12;
 
     const cell = {
       color: 'blue',
@@ -109,7 +109,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <Board
           data={this.state.board}
           onCellClick={this.onCellClick}

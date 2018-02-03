@@ -21,7 +21,7 @@ const Board = (props) => {
   ));
 
   return (
-    <table>
+    <table class="board">
       <tbody>
         {cells}
       </tbody>
